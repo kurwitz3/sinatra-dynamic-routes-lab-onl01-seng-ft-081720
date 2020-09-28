@@ -43,6 +43,6 @@ get '/:operation/:number1/:number2' do
          when "Multiply"
            @num1 * @num2
            
-
+end
 end 
 end
