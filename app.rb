@@ -17,7 +17,7 @@ get '/say/:number/:phrase' do
   @ph = params[:phrase]
   @num.times do 
     @ph 
-
+end
 end 
 
 end
