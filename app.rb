@@ -20,5 +20,11 @@ get '/say/:number/:phrase' do
     str
 end
 
-
+get '/say/:word1/:word2/:word3/:word4/:word5' do 
+@word_1 
+@word_2
+@word_3
+@word_4
+@word_5
+end 
 end
