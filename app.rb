@@ -21,11 +21,11 @@ get '/say/:number/:phrase' do
 end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do 
-@word_1 = params[:word1].to_i
-@word_2 = params[:word2].to_i
-@word_3 = params[:word3].to_i
-@word_4 = params[:word4].to_i
-@word_5 = params[:word5].to_i
-
+@word_1 = params[:word1]
+@word_2 = params[:word2]
+@word_3 = params[:word3]
+@word_4 = params[:word4]
+@word_5 = params[:word5]
+"#{@word_1} #{@word_2} #{@word3} #{@word4} #{@word5}"
 end 
 end
