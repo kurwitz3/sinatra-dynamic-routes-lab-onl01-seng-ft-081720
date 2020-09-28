@@ -35,13 +35,13 @@ get '/:operation/:number1/:number2' do
   @num2 = params[:number2].to_i 
   case @op 
    when "Subtract"
-     @num1 - @num2
+     (@num1 - @num2).to_s
      when "Add"
-       @num1 + @num2
+       (@num1 + @num2).to_s
        when "Divide"
-         @num1 % @num2
+        (@num1 % @num2).to_s
          when "Multiply"
-           @num1 * @num2
+           (@num1 * @num2).to_s
            
 end
 end 
